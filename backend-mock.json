@@ -1,0 +1,20 @@
+{"jobs":
+[
+  {
+    "id":"e53db13f-2f7e-4e7d-b7cc-42e7a33b0e8d",
+    "headers":{
+      "DELAYER_MESSAGE_ID":"e53db13f-2f7e-4e7d-b7cc-42e7a33b0e8d"
+    },
+    "payload":"{\"id\":77095618000099,\"idTeleoperation\":84991448000098,\"delayedDate\":\"2018-07-28T00:00:00\",\"etape\":\"TEMPORISATION_DEMANDE_PROGRAMMATION\"}"
+  },
+  {
+    "id":"2d9391dc-e74f-457c-ae16-4b92c94c2c15",
+    "headers":{
+      "DELAYER_MESSAGE_ID":"2d9391dc-e74f-457c-ae16-4b92c94c2c15"
+    },
+    "payload":"{\"id\":92391934000102,\"idTeleoperation\":48785781000101,\"delayedDate\":\"2018-07-28T00:00:00\",\"etape\":\"TEMPORISATION_DEMANDE_PROGRAMMATION\"}"
+  }
+]
+}
+
+

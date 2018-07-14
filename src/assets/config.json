@@ -1,0 +1,4 @@
+{
+  "jobsUrl": "http://localhost:3000/jobs",
+  "textfile": "assets/textfile.txt"
+}

@@ -1,3 +1,10 @@
-<p>
-  jobs works!
-</p>
+<div class="row">
+  <div *ngIf="jobs.length > 0">
+    <div *ngFor="let job of jobs">
+      <ul>
+        <li>Job ID: {{job.id}} - Message Headers : {{job.headers}} - Message payload : {{job.payload}} </li>
+      </ul>
+    </div>
+  </div>
+</div>
+'
