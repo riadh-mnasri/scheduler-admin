@@ -1,9 +1,29 @@
-<div>
+<!--<div>
   <div *ngIf="jobs">
     <div *ngFor="let job of jobs">
       <ul class="list-group">
-        <li class="list-group-item">Job ID: {{job.id}} - Message Headers : {{job.headers | json}} - Message payload : <pre>{{job.payload  | json}}}</pre> </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">Job ID: {{job.id}}</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">Message Headers : {{job.headers | json}} </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">Message payload : <pre>{{job.payload  | json}}}</pre> </li>
       </ul>
     </div>
   </div>
-</div>
+</div>-->
+<table style="width:100%" class="table">
+  <thead>
+  <tr>
+    <th>Message ID</th>
+    <th>Headers</th>
+    <th>Payload</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let job of jobs">
+      <td>{{job.id}}</td>
+      <td>{{job.headers | json}} </td>
+      <td>{{job.payload | json}} </td>
+  </tr>
+  </tbody>
+</table>
+
+
